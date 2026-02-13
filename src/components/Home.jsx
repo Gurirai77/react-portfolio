@@ -1,5 +1,5 @@
 import "../style/Home.css";
-import guripic from "../assets/guripic.png";
+import guripic from "../assets/guripic.webp";
 import Footer from "./Footer";
 import { useState } from "react";
 import Contact from "./Contact";

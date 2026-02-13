@@ -100,7 +100,7 @@ export default function Contact() {
                     <div className="cbox2">
                         <h2>🚀 Start a Project</h2>
                         <div className="inputdiv1">
-                            <form ref={form1} onSubmit={sendEmail}>
+                            <form ref={form1} onSubmit={sendEmail} >
                                 <input type="text" name="user_name" placeholder="Your Name" value={form.name}
                                     onChange={(e) =>
                                         setForm((prev) => ({ ...prev, name: e.target.value }))

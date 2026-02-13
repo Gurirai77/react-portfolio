@@ -603,6 +603,13 @@ a{
     padding: 10px;
 }
 
+form{
+     display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+}
+
 .inputdiv1 input {
     color: white;
     padding: 20px;
