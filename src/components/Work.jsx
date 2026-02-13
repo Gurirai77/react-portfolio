@@ -1,5 +1,5 @@
 import "../style/Home.css"
-import guripic from "../assets/guripic.png"
+
 import loginpage from "../assets/loginpage.jpeg"
 import theguri from "../assets/theguri.jpeg"
 
@@ -15,7 +15,7 @@ export default function Work() {
                     <div className="workc2">
                         <div className="wcard1">
                             <div className="cardimg">
-                                <img src={loginpage} />
+                                <img src={loginpage} alt="not found"/>
                             </div>
                             <div className="cardtext">
                                 <h4>Login Page Design</h4>
@@ -31,8 +31,8 @@ export default function Work() {
                             </div>
                         </div>
                         <div className="wcard1">
-                            <div className="cardimg">
-                                <img src={theguri} />
+                            <div className="cardimg" >
+                                <img src={theguri} alt="not found"/>
                             </div>
                             <div className="cardtext">
                                 <h4>Responsive Portfolio website</h4>

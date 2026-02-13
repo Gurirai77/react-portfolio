@@ -1,6 +1,4 @@
 import { useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { addclient } from "../redux/slice/clientSlice";
 import toast, { Toaster } from "react-hot-toast";
 import emailjs from '@emailjs/browser';
 import { useRef } from 'react';
@@ -85,16 +83,16 @@ export default function Contact() {
                             want to collaborate on an app idea, let’s
                             connect and make it real.</p>
                         <a href="tel:7206881771">📞+91 7206881771</a>
-                        <a href="mailto:mrgurirai77@gmail.com" target="_blank">📧mrgurirai77@gmail.com</a>
-                        <a href="mailto:mrgurirai77@gmail.com" target="_blank">📬mrgurirai77@gmail.com</a>
+                        <a href="mailto:mrgurirai77@gmail.com" target="_blank" rel="noreferrer">📧mrgurirai77@gmail.com</a>
+                        <a href="mailto:mrgurirai77@gmail.com" target="_blank" rel="noreferrer">📬mrgurirai77@gmail.com</a>
                         <div className="iyx">
-                            <a href="https://x.com/mrgurirai77?t=cYp3RZtP9NN9fGbn7DSDog&s=09" target="_blank">
+                            <a href="https://x.com/mrgurirai77?t=cYp3RZtP9NN9fGbn7DSDog&s=09" target="_blank" rel="noreferrer">
                                 <i className="fa-brands fa-x-twitter"></i>
                             </a>
-                            <a href="https://youtube.com/@itsgurirai13?si=OA7R2eQOIMvWh8vs" target="_blank">
+                            <a href="https://youtube.com/@itsgurirai13?si=OA7R2eQOIMvWh8vs" target="_blank" rel="noreferrer">
                                 <i className="fa-brands fa-youtube"></i>
                             </a>
-                            <a href="https://www.instagram.com/_its_guri__13/?utm_source=qr&igsh=MWpoZmt4NGt6aDhneQ%3D%3D#" target="_blank">
+                            <a href="https://www.instagram.com/_its_guri__13/?utm_source=qr&igsh=MWpoZmt4NGt6aDhneQ%3D%3D#" target="_blank" rel="noreferrer">
                                 <i className="fa-brands fa-instagram"></i>
                             </a>
                         </div>
