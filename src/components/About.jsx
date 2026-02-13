@@ -1,3 +1,5 @@
+import cvFile from "../assets/guri-rai-frontend-developer.pdf";
+
 export default function About(){
     return(
         <>
@@ -17,6 +19,16 @@ export default function About(){
                     <p>I’m currently studying in <b>11th class</b>, balancing my studies with my passion for coding. I believe
                         consistent learning and smart work can turn ideas into successful projects.</p>
                     <p class="Lets">Let’s build something amazing together! 🚀</p>
+
+                    <div className="cv-btn-wrapper">
+                        <a 
+                          href={cvFile} 
+                          download="Guri-Rai-Frontend-Developer-CV.pdf"
+                          className="cv-btn"
+                        >
+                          Download CV
+                        </a>
+                    </div>
                 </div>
             </div>
         
