@@ -1,0 +1,1051 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.navbaarp {
+    width: 100%;
+    padding: 10px;
+    background-color: #1E2A3A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.navbaarc1 {
+    display: flex;
+    gap: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-right: 140px;
+}
+
+.p {
+    color: white;
+    cursor: pointer;
+}
+
+.p:hover {
+    color: #155DFD;
+    text-decoration: underline;
+}
+
+.navbaarc1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbaarc1 a:hover {
+    color: #044ff3;
+}
+
+a{
+    text-decoration: none;
+}
+
+.herosection {
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    background-color: #182132;
+}
+
+.aboutme {
+    width: 100%;
+    height: 100vh;
+    background-color: #0d1b2ae7;
+    /* text-align: center; */
+    padding: 60px 20px;
+}
+
+.articleS2 {
+    width: 100%;
+    height: 110vh;
+    background-color: #0d1b2aee;
+}
+
+.gurilogo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 100px;
+}
+
+.gurilogo img {
+    width: 40px;
+    border: 1px solid skyblue;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.gurilogo span {
+    color: #4a9bec;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.hc1 {
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(10, 41, 41); */
+}
+
+.hc2 {
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-items: center;
+    /* background-color: rgb(255, 0, 149); */
+}
+
+.htextdiv {
+    width: 500px;
+    /* background-color:blueviolet ; */
+    margin-top: 120px;
+    margin-left: 100px;
+}
+
+.iamguri,
+.rai {
+    color: white;
+    font-size: 70px;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+
+.iamguri:hover,
+.rai:hover {
+    /* text-decoration:underline #1E2A3A; */
+    box-shadow: 0px 0px 15px 5px #2c446c;
+}
+
+.htextdiv p {
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.sdtext {
+    font-size: 20px;
+    font-size: 25px;
+    color: #4a9bec;
+}
+
+.hc1but {
+    width: 250px;
+    display: flex;
+    gap: 13px;
+    /* background-color: aqua; */
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.hc1b1 {
+    width: 120px;
+    height: 50px;
+    background-color: #155DFD;
+    color: white;
+    border: 1px solid #155DFD;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hc1b1:hover {
+    background-color: #0146da;
+}
+
+.hc1b2 {
+    width: 120px;
+    height: 50px;
+    background-color: #0d1b2ae7;
+    color: #4a9bec;
+    border: 1px solid #155DFD;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hc1b2:hover {
+    background-color: #0d1b2a04;
+}
+
+.gurihc2 {
+    width: 320px;
+    margin-left: 100px;
+    margin-top: 130px;
+    box-shadow: 0px 0px 10px 10px #0d1b2ae7;
+    border-radius: 100%;
+}
+
+.gurihc2:hover {
+    box-shadow: 0px 0px 10px 10px #1b3551e7;
+}
+
+.aboutme h2 {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.aboutme h2:hover {
+    text-decoration: underline;
+}
+
+.aboutme p {
+    color: white;
+    font-size: 1.1rem;
+    line-height: 1.9;
+    /* margin-bottom: 20px; */
+    max-width: 850px;
+    padding-top: 15px;
+    margin: 10px auto;
+}
+
+.aboutme b {
+    color: #f1f5f9;
+}
+
+.skills {
+    width: 100%;
+    padding: 90px;
+    display: flex;
+    flex-direction: column;
+    background-color: #182132;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.skillsc1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.skillsc1:hover {
+    text-decoration: underline;
+}
+
+.skillsc2 {
+    width: 90%;
+    /* height: 250px; */
+    /* background-color: aqua; */
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ftl {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    /* height: 200px; */
+    padding: 30px;
+    background-color: #1E2A3A;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 1px #0d1523;
+    cursor: pointer;
+}
+
+.ftl h4 {
+    color: skyblue;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+.ftl p {
+    color: white;
+    font-size: 20px;
+}
+
+.ftl:hover {
+    box-shadow: 0px 0px 15px 1px #2c446c;
+    /* margin-bottom:10px; */
+}
+
+.Education {
+    width: 100%;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    background-color: #0d1b2ae7;
+}
+
+.ec1 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+
+.ec1:hover {
+    text-decoration: underline;
+}
+
+.ec2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sd {
+    width: 60%;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #182132;
+    border-radius: 10px;
+    border: 0.1px solid white;
+    cursor: pointer;
+}
+
+.sd h2 {
+    color: #4a9bec;
+}
+
+.sd p {
+    color: white;
+}
+
+.sd:hover {
+    /* border: 0.1px solid #4a9bec; */
+    border: 0.1px solid white;
+    box-shadow: 0px 0px 1px 1px white;
+}
+
+.work {
+    width: 100%;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    background-color: #182132;
+
+}
+
+.workc1 {
+    color: white;
+    cursor: pointer;
+}
+
+.workc1:hover {
+    text-decoration: underline;
+}
+
+.workc2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 140px;
+}
+
+.wcard1 {
+    width: 30%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+    border: 1px solid white;
+    background-color: #1E2A3A;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.cardimg img {
+    width: 100%;
+}
+
+.cardtext {
+    width: 95%;
+    padding: 7px 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.cardtext h4 {
+    color: #4a9bec;
+}
+
+.cardtext p {
+    color: white;
+}
+
+.cardlang {
+    display: flex;
+    gap: 15px;
+}
+
+.cardlang p {
+    color: white;
+    font-size: 15px;
+    background-color: #1a3b5bc2;
+}
+
+.wcard1:hover {
+    border: 1px solid #4a9bec;
+    box-shadow: 0px 0px 10px 10px #1b3551e7;
+}
+
+.View {
+    display: none;
+}
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32%;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 3px;
+    margin-left: 100px;
+    margin-top: 5px;
+} */
+
+.vv2 {
+    display: none;
+}
+    /* margin-top: 0px;
+    margin-bottom: 15px ;
+    background-color: red;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 5px;
+    border-radius: 3px;
+} */
+
+.vv2 a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32%;
+    color: white;
+    border: 1px solid white;
+    padding: 4px;
+    border-radius: 3px;
+}
+
+.View a {
+    color: white;
+}
+
+.View:hover {
+    /* border: 1px solid #0146da; */
+    box-shadow: 0px 0px 5px 1px white;
+}
+
+.Lets {
+    text-align: start;
+}
+
+.contact {
+    width: 100%;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    background-color: #1e2b3d;
+}
+
+.cc1 {
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.cc1:hover {
+    text-decoration: underline;
+}
+
+.cc2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.cbox1 {
+    width: 40%;
+    /* height: 400px; */
+    padding: 40px 20px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid skyblue;
+    background-color: #233245;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.cbox1:hover {
+    box-shadow: 0px 0px 10px 10px #1b3551e7;
+}
+
+.cbox1 h2 {
+    color: #155DFD;
+    /* font-weight: bold; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cbox1 p {
+    color: white;
+    font-size: 15px;
+    text-align: start;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cbox1 a {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+
+.cbox1 a:hover {
+    color: #4a9bec;
+}
+
+.cbox2 {
+    width: 40%;
+    height: 500px;
+    padding: 40px 20px;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    gap: 18px;
+    border: 1px solid skyblue;
+    background-color: #233245;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.cbox2:hover {
+    box-shadow: 0px 0px 10px 10px #1b3551e7;
+}
+
+.iyx {
+    display: flex;
+    gap: 15px;
+    color: white;
+    padding-left: 5px;
+}
+
+.iyx I:hover {
+    color: #4a9bec;
+}
+
+.iyx I {
+    font-size: 30px;
+}
+
+.copyr {
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2d425e;
+}
+
+.copyr p {
+    color: white;
+    font-size: 17px;
+}
+
+.cbox2 h2 {
+    color: #155DFD;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.inputdiv1 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+}
+
+.inputdiv1 input {
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: #364153;
+    outline: none;
+}
+
+.inputdiv1 input:hover {
+    border: 0.5px solid #155DFD;
+}
+
+.inputdiv1 textarea {
+    color: white;
+    border-radius: 5px;
+    padding: 19px;
+    background-color: #364153;
+    outline: none;
+    border: none;
+}
+
+.inputdiv1 textarea:hover {
+    border: 0.5px solid #155DFD;
+}
+
+.sbutton {
+    border: none;
+    border-radius: 6px;
+    width: 60%;
+    padding: 15px;
+    margin-left: 70px;
+    background-color: #0146da;
+    cursor: pointer;
+    color: white;
+    border: 1px solid #4a9bec;
+}
+
+.sbutton:hover {
+    background-color: #044ff3;
+    border: 1px solid white;
+    box-shadow: 0px 0px 5px 1px rgba(255, 255, 255, 0.16);
+}
+
+@media only screen and (max-width:600px) {
+    .navbaarc1 {
+        display: none;
+    }
+
+    .navbaar {
+        padding: 15px;
+    }
+
+    .vv2 {
+        display: none;
+    }
+
+    .gurilogo {
+        width: 100%;
+        justify-content: center;
+        padding-right: 15%;
+    }
+
+    .herosection {
+        flex-direction: column;
+        margin-top: 55px;
+        /* padding-left: 40px; */
+        padding: 10px;
+    }
+
+    .hc1 {
+        width: 100%;
+        /* background-color: rebeccapurple; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hc2 {
+        width: 100%;
+        /* background-color: red; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .iamguri,
+    .rai {
+        font-size: 57px;
+        padding-left: 5%;
+    }
+
+    .htextdiv p {
+        padding-left: 5%;
+        font-size: 23px;
+    }
+
+    .gurihc2 {
+        margin: 0;
+        padding: 0;
+        width: 280px;
+    }
+
+    .htextdiv {
+        margin-top: 10px;
+        padding-left: 20px;
+    }
+
+    .hc1but {
+        /* padding-right: 100%; */
+        width: 100%;
+        /* background-color: red; */
+    }
+
+    .aboutme {
+        min-height: 120vh;
+        padding: 30px;
+        /* height: 115vh; */
+    }
+
+    .skillsc2 {
+        flex-direction: column;
+        gap: 45px;
+
+    }
+
+    .ftl {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .sd {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .ec2 {
+        gap: 25px;
+    }
+
+    .workc2 {
+        flex-direction: column;
+        gap: 80px;
+    }
+
+    .wcard1 {
+        width: 100%;
+        height: 35%;
+
+    }
+
+    .contact {
+        padding: 0;
+        padding: 40px 0px;
+    }
+
+    .cc1 {
+        font-size: 20px;
+    }
+
+    .cc2 {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .cbox1 {
+        width: 85%;
+    }
+
+    .cbox2 {
+        width: 85%;
+        height: 500px;
+    }
+
+    .skills {
+        padding: 0;
+        padding: 40px 0px;
+    }
+
+    .mst {
+        font-size: 25px;
+        text-align: center;
+        cursor: pointer;
+
+    }
+
+    .Education {
+        padding: 0;
+        padding: 40px 20px;
+    }
+
+    .work {
+        padding: 0;
+        padding: 40px 20px;
+    }
+
+    .View {
+        display: none;
+    }
+
+    .sbutton {
+        margin-left: 50px;
+    }
+}
+
+
+
+@media only screen and (max-width:360px) {
+    .aboutme {
+        min-height: 140vh;
+        padding: 30px;
+        /* height: 115vh; */
+    }
+
+    .cc1 {
+        color: white;
+        font-size: 17px;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    .sbutton {
+        margin-left: 50px;
+    }
+
+    .copyr p {
+        font-size: 15px;
+    }
+
+    .vv2 {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+
+  /* ===== NAVBAR ===== */
+  .navbaarp {
+    padding: 12px 10px;
+  }
+
+  .gurilogo {
+    padding-left: 0;
+    justify-content: center;
+  }
+
+  /* ===== HERO SECTION ===== */
+  .herosection {
+    flex-direction: column;
+    height: auto;
+    padding: 30px 15px;
+    margin-top: 70px;
+  }
+
+  .hc1, .hc2 {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  .htextdiv {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .iamguri,
+  .rai {
+    font-size: 42px;
+  }
+
+  .htextdiv p {
+    font-size: 20px;
+  }
+
+  .hc1but {
+    margin: 20px 0 0;
+    justify-content: center;
+  }
+
+  .gurihc2 {
+    width: 240px;
+    margin: 25px 0;
+  }
+
+  /* ===== ABOUT ===== */
+  .aboutme {
+    height: auto;
+    padding: 40px 20px;
+  }
+
+  /* ===== SKILLS ===== */
+  .skills {
+    padding: 40px 15px;
+  }
+
+  .skillsc2 {
+    flex-direction: column;
+  }
+
+  .ftl {
+    width: 100%;
+  }
+
+  /* ===== EDUCATION ===== */
+  .Education {
+    padding: 40px 15px;
+  }
+
+  .sd {
+    width: 100%;
+  }
+
+  /* ===== WORK ===== */
+  .work {
+    padding: 40px 15px;
+  }
+
+  .workc2 {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .wcard1 {
+    width: 100%;
+    height: auto;
+  }
+
+  /* ===== CONTACT ===== */
+  .contact {
+    padding: 40px 15px;
+  }
+
+  .cc2 {
+    flex-direction: column;
+  }
+
+  .cbox1,
+  .cbox2 {
+    width: 100%;
+    height: auto;
+  }
+
+  .sbutton {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 360px) {
+
+  .iamguri,
+  .rai {
+    font-size: 34px;
+  }
+
+  .htextdiv p {
+    font-size: 18px;
+  }
+
+  .gurihc2 {
+    width: 210px;
+  }
+
+  .copyr p {
+    font-size: 14px;
+  }
+}
+
+
+body {
+  background-color: #182132;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+
+/* ================= MOBILE MENU FEATURE ================= */
+
+.menuicon {
+  display: none;
+  color: white;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+/* Mobile dropdown panel */
+.mobilemenu {
+  display: none;
+}
+
+/* ===== Only Mobile ===== */
+@media only screen and (max-width: 600px) {
+
+  .menuicon {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 18px;
+  }
+
+  .mobilemenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    background-color: #1E2A3A;
+    padding: 25px 0;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid #155DFD;
+    z-index: 999;
+    animation: slideDown 0.3s ease;
+  }
+
+  .mobilemenu a {
+    color: white;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.3s;
+  }
+
+  .mobilemenu a:hover {
+    color: #155DFD;
+    text-decoration: underline;
+  }
+
+}
+
+/* Smooth open animation */
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
